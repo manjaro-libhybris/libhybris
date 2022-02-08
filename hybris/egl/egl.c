@@ -512,6 +512,7 @@ static struct FuncNamePair _eglHybrisOverrideFunctions[] = {
 	OVERRIDE_SAMENAME(eglGetDisplay),
 	OVERRIDE_SAMENAME(eglGetPlatformDisplay),
 	OVERRIDE_SAMENAME(eglTerminate),
+	OVERRIDE_SAMENAME(eglCreatePlatformWindowSurface),
 	OVERRIDE_SAMENAME(eglCreateWindowSurface),
 	OVERRIDE_SAMENAME(eglDestroySurface),
 	OVERRIDE_SAMENAME(eglSwapInterval),
